@@ -5,6 +5,13 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+// meta information informing Express to use pug framework
+app.set("view engine", "pug");
+// we set this to inform our templating engine where all the
+// html files are.
+// by default, it's value is rootDir/views
+app.set("views", "views");
+
 const { routes } = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
 

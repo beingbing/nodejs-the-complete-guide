@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-assignment-2",
+  "version": "1.0.0",
+  "description": "expressjs assignment - udemy - Maximilian Schwarzmuller course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Samar Taj Shaikh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

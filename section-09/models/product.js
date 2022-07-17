@@ -26,6 +26,7 @@ module.exports = class Product {
   }
 
   save() {
+    this.id = Math.random().toString();
     getProductsFromFile((products) => {
       // 'this' will refer to the object created based on
       // the class. And that is the object we want to store
